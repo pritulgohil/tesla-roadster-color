@@ -1,4 +1,12 @@
-
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+  }
+  
+  function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+  }
+   
+   
    document.querySelectorAll(".box")[0].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t1.jpeg");
         document.querySelectorAll(".box")[0].style.transform = "scale(1.5)";
@@ -13,7 +21,24 @@
         document.querySelectorAll(".box")[9].style.transform = "scale(1)";
         document.querySelectorAll(".box")[10].style.transform = "scale(1)";
         document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+        
     });
+
+    document.querySelectorAll(".box")[0].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
 
 
     document.querySelectorAll(".box")[1].addEventListener("click",function(){
@@ -30,11 +55,42 @@
         document.querySelectorAll(".box")[8].style.transform = "scale(1)";
         document.querySelectorAll(".box")[9].style.transform = "scale(1)";
         document.querySelectorAll(".box")[10].style.transform = "scale(1)";
-        document.querySelectorAll(".box")[11].style.transform = "scale(1)";    });
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";    
+});
+
+document.querySelectorAll(".box")[1].addEventListener("mouseover",function(){
+    document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[1].style.transform = "scale(1.5)";
+    document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+    document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+});
 
     document.querySelectorAll(".box")[2].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t3.jpeg");
         document.querySelector("p").innerHTML = "Obsidian Black Metallic";
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[2].addEventListener("mouseover",function(){
         document.querySelectorAll(".box")[0].style.transform = "scale(1)";
         document.querySelectorAll(".box")[1].style.transform = "scale(1)";
         document.querySelectorAll(".box")[2].style.transform = "scale(1.5)";
@@ -67,9 +123,39 @@
         document.querySelectorAll(".box")[11].style.transform = "scale(1)";
     });
 
+    document.querySelectorAll(".box")[3].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
     document.querySelectorAll(".box")[4].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t5.jpeg");
         document.querySelector("p").innerHTML = "Silver Metallic";
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[4].addEventListener("mouseover",function(){
         document.querySelectorAll(".box")[0].style.transform = "scale(1)";
         document.querySelectorAll(".box")[1].style.transform = "scale(1)";
         document.querySelectorAll(".box")[2].style.transform = "scale(1)";
@@ -102,9 +188,40 @@
         document.querySelectorAll(".box")[11].style.transform = "scale(1)";
     });
 
+    document.querySelectorAll(".box")[5].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+
     document.querySelectorAll(".box")[6].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t7.jpeg");
         document.querySelector("p").innerHTML = "Red Multi-Coat";
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[6].addEventListener("mouseover",function(){
         document.querySelectorAll(".box")[0].style.transform = "scale(1)";
         document.querySelectorAll(".box")[1].style.transform = "scale(1)";
         document.querySelectorAll(".box")[2].style.transform = "scale(1)";
@@ -137,9 +254,39 @@
         document.querySelectorAll(".box")[11].style.transform = "scale(1)";
     });
 
+    document.querySelectorAll(".box")[7].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
     document.querySelectorAll(".box")[8].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t9.jpeg");
         document.querySelector("p").innerHTML = "Brilliant Yellow Multi-Coat";
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[8].addEventListener("mouseover",function(){
         document.querySelectorAll(".box")[0].style.transform = "scale(1)";
         document.querySelectorAll(".box")[1].style.transform = "scale(1)";
         document.querySelectorAll(".box")[2].style.transform = "scale(1)";
@@ -172,9 +319,39 @@
         document.querySelectorAll(".box")[11].style.transform = "scale(1)";
     });
 
+    document.querySelectorAll(".box")[9].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
     document.querySelectorAll(".box")[10].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t11.jpeg");
         document.querySelector("p").innerHTML = "Electric Blue Multi-Coat";
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1.5)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[10].addEventListener("mouseover",function(){
         document.querySelectorAll(".box")[0].style.transform = "scale(1)";
         document.querySelectorAll(".box")[1].style.transform = "scale(1)";
         document.querySelectorAll(".box")[2].style.transform = "scale(1)";
@@ -205,4 +382,199 @@
         document.querySelectorAll(".box")[9].style.transform = "scale(1)";
         document.querySelectorAll(".box")[10].style.transform = "scale(1)";
         document.querySelectorAll(".box")[11].style.transform = "scale(1.5)";
+    });
+
+    document.querySelectorAll(".box")[11].addEventListener("mouseover",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1.5)";
+    });
+
+    document.querySelectorAll(".box")[0].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[1].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[2].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[3].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[4].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[5].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[6].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[7].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[8].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[9].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[10].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+    });
+
+    document.querySelectorAll(".box")[11].addEventListener("mouseout",function(){
+        document.querySelectorAll(".box")[0].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[1].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[2].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[3].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[4].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[5].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[6].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[7].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[8].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[9].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[10].style.transform = "scale(1)";
+        document.querySelectorAll(".box")[11].style.transform = "scale(1)";
     });
