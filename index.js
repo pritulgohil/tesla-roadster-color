@@ -1,11 +1,3 @@
-function mouseOver() {
-    document.getElementById("demo").style.color = "red";
-  }
-  
-  function mouseOut() {
-    document.getElementById("demo").style.color = "black";
-  }
-   
    
    document.querySelectorAll(".box")[0].addEventListener("click",function(){
         document.getElementById("change").setAttribute("src", "images/t1.jpeg");
