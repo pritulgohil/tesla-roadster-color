@@ -5,6 +5,7 @@ const p = document.querySelector("p");
 
 firstBox.addEventListener("click", function () {
     img.setAttribute("src", "images/t1.jpeg");
+    p.innerHTML = "Solid Black";
     firstBox.style.transform = "scale(1.5)";
     for (let i = 1; i < boxes.length; i++) {
         boxes[i].style.transform = "scale(1)";
