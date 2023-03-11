@@ -57,7 +57,7 @@ fourBox.addEventListener("click", function () {
     p.innerHTML = "Silver Metallic";
     fourBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 4) {
             boxes[i].style.transform = "scale(1)";
         }
     }
@@ -70,7 +70,7 @@ fiveBox.addEventListener("click", function () {
     p.innerHTML = "Pearl White Multi-Coat";
     fiveBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 5) {
             boxes[i].style.transform = "scale(1)";
         }
     }
@@ -83,7 +83,7 @@ sixBox.addEventListener("click", function () {
     p.innerHTML = "Red Multi-Coat";
     sixBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 6) {
             boxes[i].style.transform = "scale(1)";
         }
     }
@@ -96,7 +96,7 @@ sevenBox.addEventListener("click", function () {
     p.innerHTML = "Very Orange Multi-Coatc";
     sevenBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 7) {
             boxes[i].style.transform = "scale(1)";
         }
     }
@@ -109,7 +109,7 @@ eightBox.addEventListener("click", function () {
     p.innerHTML = "Brilliant Yellow Multi-Coat";
     eightBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 8) {
             boxes[i].style.transform = "scale(1)";
         }
     }
@@ -122,76 +122,40 @@ nineBox.addEventListener("click", function () {
     p.innerHTML = "Glacier Blue Multi-Coat";
     nineBox.style.transform = "scale(1.5)";
     for (let i = 0; i < boxes.length; i++) {
-        if (i !== 3) {
+        if (i !== 9) {
             boxes[i].style.transform = "scale(1)";
         }
     }
 });
 
 
-document.querySelectorAll(".box")[9].addEventListener("click", function () {
-    document.getElementById("change").setAttribute("src", "images/t10.jpeg");
-    document.querySelector("p").innerHTML = "Glacier Blue Multi-Coat";
-    document.querySelectorAll(".box")[0].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[1].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[2].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[3].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[4].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[5].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[6].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[7].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[8].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[9].style.transform = "scale(1.5)";
-    document.querySelectorAll(".box")[10].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+const tenBox = boxes[10];
+tenBox.addEventListener("click", function () {
+    img.setAttribute("src", "images/t11.jpeg");
+    p.innerHTML = "Electric Blue Multi-Coat";
+    tenBox.style.transform = "scale(1.5)";
+    for (let i = 0; i < boxes.length; i++) {
+        if (i !== 10) {
+            boxes[i].style.transform = "scale(1)";
+        }
+    }
 });
 
-document.querySelectorAll(".box")[10].addEventListener("click", function () {
-    document.getElementById("change").setAttribute("src", "images/t11.jpeg");
-    document.querySelector("p").innerHTML = "Electric Blue Multi-Coat";
-    document.querySelectorAll(".box")[0].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[1].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[2].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[3].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[4].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[5].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[6].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[7].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[8].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[9].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[10].style.transform = "scale(1.5)";
-    document.querySelectorAll(".box")[11].style.transform = "scale(1)";
+const elevenBox = boxes[11];
+elevenBox.addEventListener("click", function () {
+    img.setAttribute("src", "images/t12.jpeg");
+    p.innerHTML = "Green Lotus Multi-Coat";
+    elevenBox.style.transform = "scale(1.5)";
+    for (let i = 0; i < boxes.length; i++) {
+        if (i !== 11) {
+            boxes[i].style.transform = "scale(1)";
+        }
+    }
 });
 
+for (let box of boxes) {
+    box.addEventListener("mouseout", function () {
+        this.style.transform = "scale(1)"
+    });
 
-document.querySelectorAll(".box")[11].addEventListener("click", function () {
-    document.getElementById("change").setAttribute("src", "images/t12.jpeg");
-    document.querySelector("p").innerHTML = "Green Lotus Multi-Coat";
-    document.querySelectorAll(".box")[0].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[1].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[2].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[3].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[4].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[5].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[6].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[7].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[8].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[9].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[10].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[11].style.transform = "scale(1.5)";
-});
-
-document.querySelectorAll(".box")[0].addEventListener("mouseout", function () {
-    document.querySelectorAll(".box")[0].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[1].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[2].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[3].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[4].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[5].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[6].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[7].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[8].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[9].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[10].style.transform = "scale(1)";
-    document.querySelectorAll(".box")[11].style.transform = "scale(1)";
-});
+}
