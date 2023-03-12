@@ -154,9 +154,11 @@ elevenBox.addEventListener("click", function () {
     }
 });
 
-for (let box of boxes) {
+
+// TODO: Kept Off
+/*for (let box of boxes) {
     box.addEventListener("mouseout", function () {
         this.style.transform = "scale(1)"
     });
 
-}
+}*/
